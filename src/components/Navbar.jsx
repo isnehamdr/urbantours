@@ -9,7 +9,6 @@ const Chevron = () => (
 const links = [
   { label: 'Packages', dropdown: true },
   { label: 'Destinations', dropdown: true },
-  { label: 'Special Offers' },
   { label: 'About us' },
   { label: 'Blog' },
 ]
