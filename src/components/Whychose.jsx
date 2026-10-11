@@ -15,25 +15,25 @@ const Whychose = () => {
       <div className="mx-auto max-w-7xl">
         {/* Top: heading + text */}
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-16">
-          <h2 className="font-['Playfair_Display'] text-3xl font-bold uppercase leading-tight text-[#2c4549] sm:text-4xl lg:text-5xl">
+          <h2 className="font-['Playfair_Display'] text-3xl font-semibold uppercase leading-tight text-[#2c4549] sm:text-4xl lg:text-5xl">
             {content.title}
           </h2>
 
           <div>
-            <p className="font-['Work_Sans'] text-xs leading-relaxed text-[#2c4549]/60 sm:text-sm">
+            <p className="font-['Work_Sans'] text-xs leading-relaxed text-[#2c4549]/60 sm:text-sm sm:leading-relaxed lg:text-base">
               {content.desc}
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
               <a
                 href="#"
-                className="rounded-md border border-[#2c4549] bg-[#2c4549] px-5 py-2.5 font-['Work_Sans'] text-xs font-medium text-white transition-colors duration-300 hover:bg-transparent hover:text-[#2c4549] sm:text-sm"
+                className="rounded-md border border-[#2c4549] bg-[#2c4549] px-5 py-2.5 font-['Work_Sans'] text-xs font-medium text-white transition-colors duration-300 hover:bg-transparent hover:text-[#2c4549] lg:text-base"
               >
                 Packages
               </a>
               <a
                 href="#"
-                className="rounded-md border border-[#2c4549]/60 px-5 py-2.5 font-['Work_Sans'] text-xs text-[#2c4549] shadow-md shadow-black/5 transition-colors duration-300 hover:bg-[#2c4549] hover:text-white sm:text-sm"
+                className="rounded-md border border-[#2c4549]/60 px-5 py-2.5 font-['Work_Sans'] text-xs text-[#2c4549] shadow-md shadow-black/5 transition-colors duration-300 hover:bg-[#2c4549] hover:text-white sm:text-base"
               >
                 About us
               </a>

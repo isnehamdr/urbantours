@@ -11,7 +11,7 @@ const FollowUs = () => {
     <section className="bg-[#f5f2ed] px-5 py-12 sm:px-8 sm:py-16 lg:px-10 lg:py-20">
       {/* Heading */}
       <h2 className="mx-auto max-w-4xl text-center font-['Playfair_Display'] text-2xl font-normal uppercase leading-tight text-[#2c4549] sm:text-4xl lg:text-5xl">
-        Follow our journey on Instagram
+        Follow our journey on Facebook
       </h2>
 
       {/* Images */}
