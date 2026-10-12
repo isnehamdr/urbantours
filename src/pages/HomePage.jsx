@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+
 import Hero from '../components/Hero'
 import Tours from '../components/Tours'
 import MidSection from '../components/MidSection'
@@ -9,12 +9,12 @@ import Whychose from '../components/Whychose'
 import Testimonial from '../components/Testimonial'
 import Contact from '../components/Contact'
 import FollowUs from '../components/FollowUs'
-import Footer from '../components/Footer'
+
 
 const HomePage = () => {
   return (
    <>
-   <Navbar/>
+
    <Hero/>
    <Tours/>
    <MidSection/>
@@ -24,7 +24,7 @@ const HomePage = () => {
    <Testimonial/>
    <Contact/>
    <FollowUs/>
-<Footer/>
+
    </>
   )
 }

@@ -1,0 +1,184 @@
+{
+  "packages": [
+    {
+      "id": 1,
+      "title": "Everest Base Camp Trek",
+      "slug": "everest-base-camp-trek",
+      "category": "trek",
+      "image": "/images/t1.jpg",
+      "description": "Discover the magic of Nepal's mountains! Walk through breathtaking landscapes, charming Sherpa villages and ancient monasteries, with the world's highest peaks on the horizon.",
+      "price": 50,
+      "duration": "14 days",
+      "difficulty": "Challenging",
+      "highlights": [
+        "Visit Everest Base Camp at 5,364m",
+        "Experience Sherpa culture",
+        "Stunning mountain views",
+        "Ancient monasteries"
+      ],
+      "itinerary": [
+        "Day 1: Arrival in Kathmandu",
+        "Day 2: Flight to Lukla",
+        "Day 3-13: Trek to EBC and back",
+        "Day 14: Return to Kathmandu"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Annapurna Circuit Trek",
+      "slug": "annapurna-circuit-trek",
+      "category": "trek",
+      "image": "/images/t1.jpg",
+      "description": "Complete the classic Annapurna Circuit, passing through diverse landscapes from subtropical forests to high-altitude deserts.",
+      "price": 60,
+      "duration": "18 days",
+      "difficulty": "Moderate to Challenging",
+      "highlights": [
+        "Cross Thorong La Pass (5,416m)",
+        "Diverse landscapes",
+        "Traditional villages",
+        "Hot springs at Tatopani"
+      ],
+      "itinerary": [
+        "Day 1: Drive to Besishahar",
+        "Day 2-17: Complete the circuit",
+        "Day 18: Return to Kathmandu"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Kathmandu Valley Heritage Tour",
+      "slug": "kathmandu-valley-heritage-tour",
+      "category": "sightseeing",
+      "image": "/images/t3.jpg",
+      "description": "Step into centuries of history in Kathmandu Valley. Visit UNESCO-listed temples, royal squares and living traditions that shaped Nepal's culture.",
+      "price": 30,
+      "duration": "3 days",
+      "difficulty": "Easy",
+      "highlights": [
+        "UNESCO World Heritage Sites",
+        "Pashupatinath Temple",
+        "Boudhanath Stupa",
+        "Swayambhunath Temple"
+      ],
+      "itinerary": [
+        "Day 1: Kathmandu Durbar Square",
+        "Day 2: Pashupatinath and Boudhanath",
+        "Day 3: Swayambhunath and Patan"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Pokhara Lake & Mountain View",
+      "slug": "pokhara-lake-mountain-view",
+      "category": "sightseeing",
+      "image": "/images/t2.jpg",
+      "description": "Relax by Phewa Lake with stunning views of the Annapurna range. Enjoy boating, paragliding, and exploring the lakeside city.",
+      "price": 35,
+      "duration": "3 days",
+      "difficulty": "Easy",
+      "highlights": [
+        "Phewa Lake boating",
+        "Sarangkot sunrise view",
+        "World Peace Pagoda",
+        "Paragliding adventure"
+      ],
+      "itinerary": [
+        "Day 1: Arrive in Pokhara",
+        "Day 2: Lake tour and Sarangkot",
+        "Day 3: Explore local markets"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Langtang Valley Trek",
+      "slug": "langtang-valley-trek",
+      "category": "trek",
+      "image": "/images/t1.jpg",
+      "description": "Trek through the beautiful Langtang Valley, known as the valley of glaciers, with close-up views of Langtang Lirung peak.",
+      "price": 55,
+      "duration": "10 days",
+      "difficulty": "Moderate",
+      "highlights": [
+        "Langtang Lirung views",
+        "Kyanjin Gompa",
+        "Glacier exploration",
+        "Tamang culture"
+      ],
+      "itinerary": [
+        "Day 1: Drive to Syabrubesi",
+        "Day 2-9: Trek through Langtang Valley",
+        "Day 10: Return to Kathmandu"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Chitwan Jungle Safari",
+      "slug": "chitwan-jungle-safari",
+      "category": "sightseeing",
+      "image": "/images/t2.jpg",
+      "description": "Explore Chitwan's lush jungle on foot, by jeep or by canoe. Spot one-horned rhinos, deer and exotic birds while you drift through untouched wilderness.",
+      "price": 40,
+      "duration": "3 days",
+      "difficulty": "Easy",
+      "highlights": [
+        "One-horned rhino spotting",
+        "Jungle safari by jeep",
+        "Canoe ride on Rapti River",
+        "Tharu cultural program"
+      ],
+      "itinerary": [
+        "Day 1: Drive to Chitwan",
+        "Day 2: Full day jungle activities",
+        "Day 3: Morning safari and return"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Ghorepani Poon Hill Trek",
+      "slug": "ghorepani-poon-hill-trek",
+      "category": "hike",
+      "image": "/images/t1.jpg",
+      "description": "A short and rewarding trek to Poon Hill for spectacular sunrise views over the Annapurna and Dhaulagiri ranges.",
+      "price": 45,
+      "duration": "5 days",
+      "difficulty": "Easy to Moderate",
+      "highlights": [
+        "Sunrise from Poon Hill",
+        "Rhododendron forests",
+        "Gurung village visits",
+        "Panoramic mountain views"
+      ],
+      "itinerary": [
+        "Day 1: Drive to Nayapul, trek to Tikhedhunga",
+        "Day 2: Trek to Ghorepani",
+        "Day 3: Poon Hill sunrise, trek to Tadapani",
+        "Day 4: Trek to Nayapul",
+        "Day 5: Return to Kathmandu"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Nagarkot Sunrise Hike",
+      "slug": "nagarkot-sunrise-hike",
+      "category": "hike",
+      "image": "/images/bg.jpg",
+      "description": "A easy half-day hike to Nagarkot for breathtaking sunrise views over the Himalayan range including Everest.",
+      "price": 25,
+      "duration": "1 day",
+      "difficulty": "Easy",
+      "highlights": [
+        "Sunrise over Himalayas",
+        "View of Mount Everest",
+        "Peaceful hill station",
+        "Short and accessible"
+      ],
+      "itinerary": [
+        "Early morning drive to Nagarkot",
+        "Sunrise viewing",
+        "Breakfast with mountain views",
+        "Return to Kathmandu"
+      ]
+    }
+  ]
+}

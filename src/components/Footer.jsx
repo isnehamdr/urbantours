@@ -48,12 +48,12 @@ const FooterLink = ({ href, external, children }) => (
   >
     {children}
     {external && <ArrowUpRight />}
-    <span className="absolute -bottom-0.5 left-0 h-px w-full origin-left scale-x-0 bg-[#e8b9a8] transition-transform duration-300 ease-out group-hover:scale-x-100" />
+    <span className="absolute -bottom-0.5 left-0 h-px w-full origin-left scale-x-0 bg-[#f5f1ea] transition-transform duration-300 ease-out group-hover:scale-x-100" />
   </a>
 )
 
 const ColumnTitle = ({ children }) => (
-  <h4 className="font-['Work_Sans'] text-[14px] font-medium uppercase tracking-[0.2em] text-[#e8b9a8]">
+  <h4 className="font-['Work_Sans'] text-[14px] font-medium uppercase tracking-[0.2em] text-[#f5f1ea]">
     {children}
   </h4>
 )
@@ -69,7 +69,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-14 xl:grid-cols-2 xl:gap-16">
           {/* CTA */}
           <div className=" max-w-2xl">
-            <p className="font-['Work_Sans'] text-[11px] font-medium uppercase tracking-[0.2em] text-[#e8b9a8]">
+            <p className="font-['Work_Sans'] text-[11px] font-medium uppercase tracking-[0.2em] text-[#f5f1ea]/60">
               Let&apos;s travel together
             </p>
             <h2 className="mt-5 font-['Playfair_Display'] text-4xl font-medium leading-[1.05] sm:text-5xl lg:text-6xl">
