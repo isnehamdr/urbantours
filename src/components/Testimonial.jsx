@@ -97,7 +97,7 @@ const Testimonial = () => {
                   ))}
                 </div>
 
-                <p className="mt-6 text-xs font-semibold text-[#2c4549] sm:text-md">{t.name}</p>
+                <p className="mt-6 text-xs font-medium text-[#2c4549] sm:text-lg">{t.name}</p>
               </div>
             </div>
           ))}
