@@ -2,16 +2,16 @@ import React from 'react'
 
 const quickLinks = [
   { label: 'Home', href: '#' },
-  { label: 'Tours', href: '#' },
-  { label: 'Packages', href: '#' },
   { label: 'About us', href: '#' },
+  { label: 'Blog', href: '#' },
   { label: 'Contact', href: '#' },
 ]
 
 const tourLinks = [
-  { label: 'Himalayan Treks', href: '#' },
-  { label: 'Jungle Safaris', href: '#' },
-  { label: 'Heritage Tours', href: '#' },
+  { label: 'Treks', href: '#' },
+  { label: ' Tours', href: '#' },
+  { label: 'Hike', href: '#' },
+  { label: 'Sightseeing', href: '#' },
 ]
 
 const socials = [
@@ -111,7 +111,7 @@ const Footer = () => {
             </div>
 
             <div className="min-w-0">
-              <ColumnTitle>Tours</ColumnTitle>
+              <ColumnTitle>Packages</ColumnTitle>
               <ul className="mt-5 space-y-3">
                 {tourLinks.map((l) => (
                   <li key={l.label}>

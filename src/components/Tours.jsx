@@ -2,21 +2,21 @@ import React, { useState } from 'react'
 
 const tours = [
   {
-    title: 'Himalayan Treks',
+    title: ' Treks',
     img: '/images/t1.jpg',
     desc: "Discover the magic of Nepal's mountains! Walk through breathtaking landscapes, charming Sherpa villages and ancient monasteries, with the world's highest peaks on the horizon.",
     price: 'Starting from $50/person.',
     link: '#',
   },
   {
-    title: 'Jungle Safaris',
+    title: 'Tours',
     img: '/images/t2.jpg',
     desc: "Explore Chitwan's lush jungle on foot, by jeep or by canoe. Spot one-horned rhinos, deer and exotic birds while you drift through untouched wilderness.",
     price: 'Starting from $40/person.',
     link: '#',
   },
   {
-    title: 'Heritage Tours',
+    title: 'Hike',
     img: '/images/t3.jpg',
     desc: "Step into centuries of history in Kathmandu Valley. Visit UNESCO-listed temples, royal squares and living traditions that shaped Nepal's culture.",
     price: 'Starting from $30/person.',

@@ -1,184 +1,459 @@
 {
+  "categories": [
+    { "slug": "sightseeing", "title": "Sightseeing", "group": "trips", "image": "/images/t3.jpg" },
+    { "slug": "hike", "title": "Hikes", "group": "trips", "image": "/images/bg.jpg" },
+    { "slug": "trek", "title": "Treks", "group": "trips", "image": "/images/t1.jpg" },
+    { "slug": "tours", "title": "Tours", "group": "tours", "image": "/images/t2.jpg" },
+    { "slug": "tailored", "title": "Tailored Trips", "group": "tailored", "image": "/images/bg.jpg" }
+  ],
   "packages": [
     {
       "id": 1,
-      "title": "Everest Base Camp Trek",
-      "slug": "everest-base-camp-trek",
-      "category": "trek",
-      "image": "/images/t1.jpg",
-      "description": "Discover the magic of Nepal's mountains! Walk through breathtaking landscapes, charming Sherpa villages and ancient monasteries, with the world's highest peaks on the horizon.",
-      "price": 50,
-      "duration": "14 days",
-      "difficulty": "Challenging",
+      "title": "Religious Kathmandu",
+      "slug": "religious-kathmandu",
+      "category": "sightseeing",
+      "status": "published",
+      "image": "/images/t3.jpg",
+      "description": "Explore Nepal's two major religious traditions at Pashupatinath Temple and Boudhanath Stupa, and see how faith shapes daily life, from life and death to philosophy.",
+      "price": null,
+      "duration": null,
+      "difficulty": null,
       "highlights": [
-        "Visit Everest Base Camp at 5,364m",
-        "Experience Sherpa culture",
-        "Stunning mountain views",
-        "Ancient monasteries"
+        "Pashupatinath, the most revered Hindu temple in Nepal",
+        "Photos with sadhus and an optional palm reading",
+        "Optional observation of Hindu cremation rituals",
+        "Walk around Boudhanath Stupa and its Tibet-like market",
+        "Monastery visit and a chat with monks if they are free",
+        "Buddhist philosophy briefing from your guide"
       ],
       "itinerary": [
-        "Day 1: Arrival in Kathmandu",
-        "Day 2: Flight to Lukla",
-        "Day 3-13: Trek to EBC and back",
-        "Day 14: Return to Kathmandu"
+        "Meet at the crossroad by Employee Provident Fund, Tridevi Marga, and take a taxi to Pashupatinath Temple",
+        "Sightseeing at Pashupatinath, with an optional palmist consultation",
+        "Walk along the Bagmati River up to Slesmantak holy forest for a better view of the temple",
+        "Drive to Boudhanath Stupa, walk around it and visit the monasteries",
+        "Brief chat with monks if the situation favors",
+        "Observe the stupa from a nearby monastery",
+        "Drive back to Thamel"
+      ],
+      "inclusions": [
+        "Experienced English-speaking guide",
+        "Entry fees to Pashupatinath Temple and Boudhanath Stupa",
+        "A drive from the starting point to the end point of the trip"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Palmist's fee if you wish to consult one",
+        "Any food or drinks during the trip",
+        "Tips and gratitude",
+        "Anything not included in the inclusions"
       ]
     },
     {
       "id": 2,
+      "title": "Kathmandu Time Travel: Patan and Bhaktapur",
+      "slug": "kathmandu-time-travel-patan-bhaktapur",
+      "category": "sightseeing",
+      "status": "published",
+      "image": "/images/t3.jpg",
+      "description": "Walk through alleys that are centuries old, courtyards of former royal palaces and living workshops in Bhaktapur and Patan, two towns that have defied the decay of time.",
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [
+        "Bhaktapur's four squares: Durbar, Taumadhi, Dattatreya and Pottery",
+        "Narrow, photogenic alleys lined with old buildings",
+        "Locals at daily work: drying grain, weaving, painting thanka, making pottery",
+        "Swarnabarna Mahabihar (Golden Temple) in Patan",
+        "Stone work at Kumari Chok and the 1667 Krishna Temple",
+        "Newari architecture and the story behind Kathmandu's name 'city of temples'"
+      ],
+      "itinerary": [],
+      "inclusions": [
+        "Experienced English-speaking guide",
+        "Entry fees to Bhaktapur Durbar Square and Patan Durbar Square",
+        "A drive from the starting point to the end point of the trip"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Any food or drinks during the trip",
+        "Tips and gratitude",
+        "Anything not included in the inclusions"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Living 15th Century in Bhaktapur",
+      "slug": "living-15th-century-in-bhaktapur",
+      "category": "sightseeing",
+      "status": "published",
+      "image": "/images/t3.jpg",
+      "description": "Pottery, sightseeing and lunch in Bhaktapur, the medieval city that kept its monuments and its everyday culture intact. Live a day the way local people do.",
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [
+        "Pick fresh vegetables at the local market",
+        "Prepare and enjoy a Newari lunch",
+        "Walk the old Newari alleys and settlements",
+        "Try your hand at pottery in Pottery Square and make your own memento"
+      ],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
+    },
+    {
+      "id": 4,
+      "title": "Kirtipur Cultural Walk and Local Aila",
+      "slug": "kirtipur-cultural-walk",
+      "category": "sightseeing",
+      "status": "draft",
+      "image": "/images/t3.jpg",
+      "description": null,
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
+    },
+    {
+      "id": 5,
+      "title": "Live a Day Like a Nepali",
+      "slug": "live-a-day-like-a-nepali",
+      "category": "sightseeing",
+      "status": "draft",
+      "image": "/images/t3.jpg",
+      "description": "An early morning walk along Ason, a hike to Swayambhu and lunch in a Nepali kitchen.",
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
+    },
+    {
+      "id": 6,
+      "title": "Nagarkot to Changu Narayan Hike",
+      "slug": "nagarkot-changu-narayan-hike",
+      "category": "hike",
+      "status": "published",
+      "image": "/images/bg.jpg",
+      "description": "A one-day combo of nature, culture and adventure: sunrise at Nagarkot, a downhill walk through Tamang villages and forest, and the ancient Changu Narayan temple.",
+      "price": null,
+      "duration": "1 day",
+      "difficulty": null,
+      "highlights": [
+        "Sunrise over the Himalayas from Nagarkot (2,135 m)",
+        "About 14 km, 4 to 5 hours, mostly downhill",
+        "Tamang village life and the Telkot community forest",
+        "Changu Narayan, one of the oldest Vishnu temples in Nepal, home to the oldest inscription found in Nepal",
+        "Old Newari culture and handicraft shops on the cobbled path up to the temple"
+      ],
+      "itinerary": [
+        "Early hotel pickup and a drive to Nagarkot",
+        "Short hike to the viewpoint for sunrise, then a quick breakfast",
+        "Downhill walk through a Tamang village to Telkot (about 7 km)",
+        "Gradual climb through Telkot community forest (about 7 km to Changu Narayan)",
+        "Lunch break in Changu Narayan village",
+        "10-minute uphill stroll to the temple and free time to explore",
+        "Walk back to the car and drive to Kathmandu"
+      ],
+      "inclusions": [
+        "Experienced English-speaking guide",
+        "Entry fee",
+        "A drive from the starting point to the end point of the trip"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Any food or drinks during the trip",
+        "Tips and gratitude",
+        "Anything not included in the inclusions"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Shivapuri Hike",
+      "slug": "shivapuri-hike",
+      "category": "hike",
+      "status": "draft",
+      "image": "/images/bg.jpg",
+      "description": "A hike on the Kathmandu Valley rim.",
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
+    },
+    {
+      "id": 8,
+      "title": "Ghandruk Poon Hill Trek",
+      "slug": "ghandruk-poon-hill-trek",
+      "category": "trek",
+      "status": "published",
+      "image": "/images/t1.jpg",
+      "description": "A short trek that combines landscape, vegetation and people, ending at Poon Hill (3,210 m) for a 360-degree mountain view. Ideal if you have limited time and want to avoid the risk of altitude sickness.",
+      "price": null,
+      "duration": "5 days",
+      "difficulty": null,
+      "highlights": [
+        "Sunrise from Poon Hill with a 360-degree view of Dhaulagiri and the Annapurna range",
+        "Rhododendron forest",
+        "Ghandruk, a traditional Gurung village with museums and Gurung dress to try",
+        "Fast option: complete it in 3 days"
+      ],
+      "itinerary": [
+        "Day 1: Pokhara to Nayapul by drive, then trek to Ulleri (850 m to 1,950 m, 5-6 hours)",
+        "Day 2: Ulleri to Ghorepani (1,960 m to 2,860 m, 4-5 hours)",
+        "Day 3: Poon Hill sunrise, then Ghorepani to Tadapani via Deurali Pass",
+        "Day 4: Tadapani to Ghandruk (2,630 m to 1,940 m, 3-4 hours)",
+        "Day 5: Jeep from near Ghandruk, or walk down to Birethanti and Nayapul"
+      ],
+      "inclusions": [
+        "Accommodation",
+        "Meals",
+        "Services of an experienced leader and porter",
+        "Two-way transport from and to Kathmandu",
+        "Airport pickup and drop",
+        "National park and conservation area fees",
+        "Trekking permit fee"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Insurance",
+        "Tips and gratitude to the guide and porters",
+        "Anything not included in the inclusions"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Everest Base Camp Trek",
+      "slug": "everest-base-camp-trek",
+      "category": "trek",
+      "status": "published",
+      "image": "/images/t1.jpg",
+      "description": "Not just a trek but a source of pride. View six of the 14 tallest peaks up close, live with the Sherpa community and push your limit, one mindful step at a time.",
+      "price": null,
+      "duration": "14 days",
+      "difficulty": "Challenging",
+      "highlights": [
+        "Himalayan views on the flight from Kathmandu to Lukla",
+        "Landing at one of the world's most dangerous airports",
+        "Life with the Sherpa community",
+        "Photos with yaks and zhopkyos, the trucks of the Himalayas",
+        "Some of the highest settlements in the world",
+        "Standing at the base of Mount Everest",
+        "360-degree views of snow-capped peaks",
+        "Musk deer, Himalayan goats (ghoral) and colorful Himalayan pheasants"
+      ],
+      "itinerary": [
+        "Day 1: Arrival in Kathmandu",
+        "Day 2: Flight to Lukla",
+        "Day 3-13: Trek to Everest Base Camp and back",
+        "Day 14: Return to Kathmandu"
+      ],
+      "inclusions": [
+        "Accommodation",
+        "Meals",
+        "Services of an experienced leader and porter",
+        "Return air ticket Kathmandu to Lukla",
+        "Airport pickup and drop",
+        "National park and conservation area fees",
+        "Trekking permit fee"
+      ],
+      "exclusions": [
+        "Personal expenses",
+        "Insurance",
+        "Tips and gratitude to the guide and porters",
+        "Additional cost incurred due to delay"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Gokyo Lake and Everest Base Camp Trek",
+      "slug": "gokyo-lake-everest-base-camp-trek",
+      "category": "trek",
+      "status": "draft",
+      "image": "/images/t1.jpg",
+      "description": null,
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
+    },
+    {
+      "id": 11,
       "title": "Annapurna Circuit Trek",
       "slug": "annapurna-circuit-trek",
       "category": "trek",
+      "status": "draft",
       "image": "/images/t1.jpg",
       "description": "Complete the classic Annapurna Circuit, passing through diverse landscapes from subtropical forests to high-altitude deserts.",
-      "price": 60,
+      "price": null,
       "duration": "18 days",
       "difficulty": "Moderate to Challenging",
       "highlights": [
-        "Cross Thorong La Pass (5,416m)",
+        "Cross Thorong La Pass (5,416 m)",
         "Diverse landscapes",
         "Traditional villages",
         "Hot springs at Tatopani"
       ],
       "itinerary": [
-        "Day 1: Drive to Besishahar",
+        "Day 1: Drive to Besisahar",
         "Day 2-17: Complete the circuit",
         "Day 18: Return to Kathmandu"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Kathmandu Valley Heritage Tour",
-      "slug": "kathmandu-valley-heritage-tour",
-      "category": "sightseeing",
-      "image": "/images/t3.jpg",
-      "description": "Step into centuries of history in Kathmandu Valley. Visit UNESCO-listed temples, royal squares and living traditions that shaped Nepal's culture.",
-      "price": 30,
-      "duration": "3 days",
-      "difficulty": "Easy",
-      "highlights": [
-        "UNESCO World Heritage Sites",
-        "Pashupatinath Temple",
-        "Boudhanath Stupa",
-        "Swayambhunath Temple"
       ],
-      "itinerary": [
-        "Day 1: Kathmandu Durbar Square",
-        "Day 2: Pashupatinath and Boudhanath",
-        "Day 3: Swayambhunath and Patan"
-      ]
+      "inclusions": [],
+      "exclusions": []
     },
     {
-      "id": 4,
-      "title": "Pokhara Lake & Mountain View",
-      "slug": "pokhara-lake-mountain-view",
-      "category": "sightseeing",
-      "image": "/images/t2.jpg",
-      "description": "Relax by Phewa Lake with stunning views of the Annapurna range. Enjoy boating, paragliding, and exploring the lakeside city.",
-      "price": 35,
-      "duration": "3 days",
-      "difficulty": "Easy",
-      "highlights": [
-        "Phewa Lake boating",
-        "Sarangkot sunrise view",
-        "World Peace Pagoda",
-        "Paragliding adventure"
-      ],
-      "itinerary": [
-        "Day 1: Arrive in Pokhara",
-        "Day 2: Lake tour and Sarangkot",
-        "Day 3: Explore local markets"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Langtang Valley Trek",
-      "slug": "langtang-valley-trek",
+      "id": 12,
+      "title": "Annapurna Base Camp Trek",
+      "slug": "annapurna-base-camp-trek",
       "category": "trek",
+      "status": "draft",
       "image": "/images/t1.jpg",
-      "description": "Trek through the beautiful Langtang Valley, known as the valley of glaciers, with close-up views of Langtang Lirung peak.",
-      "price": 55,
-      "duration": "10 days",
-      "difficulty": "Moderate",
-      "highlights": [
-        "Langtang Lirung views",
-        "Kyanjin Gompa",
-        "Glacier exploration",
-        "Tamang culture"
-      ],
-      "itinerary": [
-        "Day 1: Drive to Syabrubesi",
-        "Day 2-9: Trek through Langtang Valley",
-        "Day 10: Return to Kathmandu"
-      ]
+      "description": null,
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
     },
     {
-      "id": 6,
-      "title": "Chitwan Jungle Safari",
-      "slug": "chitwan-jungle-safari",
-      "category": "sightseeing",
+      "id": 13,
+      "title": "Mardi Himal Trek",
+      "slug": "mardi-himal-trek",
+      "category": "trek",
+      "status": "draft",
+      "image": "/images/t1.jpg",
+      "description": null,
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
+    },
+    {
+      "id": 14,
+      "title": "Manaslu Circuit Trek",
+      "slug": "manaslu-circuit-trek",
+      "category": "trek",
+      "status": "draft",
+      "image": "/images/t1.jpg",
+      "description": null,
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
+    },
+    {
+      "id": 15,
+      "title": "Tsum Valley Trek",
+      "slug": "tsum-valley-trek",
+      "category": "trek",
+      "status": "draft",
+      "image": "/images/t1.jpg",
+      "description": null,
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
+    },
+    {
+      "id": 16,
+      "title": "Pokhara",
+      "slug": "pokhara",
+      "category": "tours",
+      "status": "published",
+      "image": "/images/t2.jpg",
+      "description": "Pokhara is the brand of many experiences, from adventure sports and caves to museums, temples and the gateway to Nepal's great trekking trails, all under views of the Annapurna range.",
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [
+        "Paragliding, boating, kayaking, heli tour, ultra flight and bungee jump",
+        "Cave walking: Gupteshwor, Mahendra and Bat caves",
+        "Museums: International Mountain Museum, Gorkha Museum and Butterfly Museum",
+        "Sunrise trip, hikes, temples and stupas, gorges and waterfalls",
+        "Views of Dhaulagiri, Nilgiri, Annapurna I, Himchuli, Annapurna South, Machhapuchhre (Fishtail), Mardi Himal, Lamjung Himal and Manaslu"
+      ],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
+    },
+    {
+      "id": 17,
+      "title": "Chitwan",
+      "slug": "chitwan",
+      "category": "tours",
+      "status": "draft",
       "image": "/images/t2.jpg",
       "description": "Explore Chitwan's lush jungle on foot, by jeep or by canoe. Spot one-horned rhinos, deer and exotic birds while you drift through untouched wilderness.",
-      "price": 40,
+      "price": null,
       "duration": "3 days",
       "difficulty": "Easy",
       "highlights": [
         "One-horned rhino spotting",
         "Jungle safari by jeep",
-        "Canoe ride on Rapti River",
+        "Canoe ride on the Rapti River",
         "Tharu cultural program"
       ],
       "itinerary": [
         "Day 1: Drive to Chitwan",
         "Day 2: Full day jungle activities",
         "Day 3: Morning safari and return"
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Ghorepani Poon Hill Trek",
-      "slug": "ghorepani-poon-hill-trek",
-      "category": "hike",
-      "image": "/images/t1.jpg",
-      "description": "A short and rewarding trek to Poon Hill for spectacular sunrise views over the Annapurna and Dhaulagiri ranges.",
-      "price": 45,
-      "duration": "5 days",
-      "difficulty": "Easy to Moderate",
-      "highlights": [
-        "Sunrise from Poon Hill",
-        "Rhododendron forests",
-        "Gurung village visits",
-        "Panoramic mountain views"
       ],
-      "itinerary": [
-        "Day 1: Drive to Nayapul, trek to Tikhedhunga",
-        "Day 2: Trek to Ghorepani",
-        "Day 3: Poon Hill sunrise, trek to Tadapani",
-        "Day 4: Trek to Nayapul",
-        "Day 5: Return to Kathmandu"
-      ]
+      "inclusions": [],
+      "exclusions": []
     },
     {
-      "id": 8,
-      "title": "Nagarkot Sunrise Hike",
-      "slug": "nagarkot-sunrise-hike",
-      "category": "hike",
+      "id": 18,
+      "title": "Lumbini",
+      "slug": "lumbini",
+      "category": "tours",
+      "status": "draft",
+      "image": "/images/t2.jpg",
+      "description": null,
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
+    },
+    {
+      "id": 19,
+      "title": "Tailored Trips",
+      "slug": "tailored-trips",
+      "category": "tailored",
+      "status": "draft",
       "image": "/images/bg.jpg",
-      "description": "A easy half-day hike to Nagarkot for breathtaking sunrise views over the Himalayan range including Everest.",
-      "price": 25,
-      "duration": "1 day",
-      "difficulty": "Easy",
-      "highlights": [
-        "Sunrise over Himalayas",
-        "View of Mount Everest",
-        "Peaceful hill station",
-        "Short and accessible"
-      ],
-      "itinerary": [
-        "Early morning drive to Nagarkot",
-        "Sunrise viewing",
-        "Breakfast with mountain views",
-        "Return to Kathmandu"
-      ]
+      "description": "What could you do to plan for your high altitude treks?",
+      "price": null,
+      "duration": null,
+      "difficulty": null,
+      "highlights": [],
+      "itinerary": [],
+      "inclusions": [],
+      "exclusions": []
     }
   ]
 }
