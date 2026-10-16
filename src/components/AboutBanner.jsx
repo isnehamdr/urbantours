@@ -34,7 +34,7 @@ const AboutBanner = ({
         </p>
 
         <div className="mt-8 ">
-          <a href="#" className={`${buttonClasses} w-full sm:w-auto`}>
+          <a href="/contact" className={`${buttonClasses} w-full sm:w-auto`}>
             Plan your trip
           </a>
         </div>

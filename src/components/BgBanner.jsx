@@ -5,7 +5,7 @@ const banner = {
   title: ['Let us show you', 'the secrets of Nepal'],
   desc: 'From the peaks of Annapurna and the heart of Kathmandu to the serene lakes of Pokhara, every destination promises you a unique and unforgettable experience.',
   btnText: 'Destinations',
-  btnLink: '#',
+  btnLink: '/packages/:slug',
 }
 
 const BgBanner = () => {

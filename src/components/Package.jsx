@@ -63,7 +63,7 @@ const Package = () => {
           </div>
 
           <a
-            href="#"
+            href="/about"
             className="mt-8 inline-block rounded-lg border border-[#2c4549] px-8 py-3.5 font-['Work_Sans'] text-sm text-[#2c4549] shadow-md shadow-black/5 transition-colors duration-300 hover:bg-[#2c4549] hover:text-[#f5f2ed] sm:mt-10 sm:text-base"
           >
             Read more

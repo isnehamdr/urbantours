@@ -26,13 +26,13 @@ const Whychose = () => {
 
             <div className="mt-6 flex flex-wrap gap-3">
               <a
-                href="#"
+                href="/contact"
                 className="rounded-md border border-[#2c4549] bg-[#2c4549] px-5 py-2.5 font-['Work_Sans'] text-xs font-medium text-white transition-colors duration-300 hover:bg-transparent hover:text-[#2c4549] lg:text-base"
               >
-                Packages
+                Plan Trip
               </a>
               <a
-                href="#"
+                href="/about"
                 className="rounded-md border border-[#2c4549]/60 px-5 py-2.5 font-['Work_Sans'] text-xs text-[#2c4549] shadow-md shadow-black/5 transition-colors duration-300 hover:bg-[#2c4549] hover:text-white sm:text-base"
               >
                 About us
